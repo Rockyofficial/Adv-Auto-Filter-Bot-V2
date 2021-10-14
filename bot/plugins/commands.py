@@ -23,7 +23,11 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
+        caption = """➠Cʜᴀɴɴᴇʟ :  
+ 🎬 @Kichcha_Creations
+
+➠Group : ⚜
+  »@Kannada_Request 💬"""
         try:
             await update.reply_cached_media(
                 file_id,
@@ -35,7 +39,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'JOIN OUR CHANNEL', url="https://t.me/new_movies_leaked"
                                 )
                         ]
                     ]
@@ -47,10 +51,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations'),
+        InlineKeyboardButton('⭕️ GROUP ⭕️', url ='https://t.me/Kannada_Request')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🧑‍💻 MASTER', url='https://t.me/@KichchaFan')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
