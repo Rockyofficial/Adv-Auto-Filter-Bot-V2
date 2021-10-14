@@ -54,7 +54,7 @@ async def start(bot, update):
         InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/Kichcha_Creations'),
         InlineKeyboardButton('⭕️ GROUP ⭕️', url ='https://t.me/Kannada_Request')
     ],[
-        InlineKeyboardButton('🧑‍💻 MASTER', url='https://t.me/@KichchaFan')
+        InlineKeyboardButton('🧑‍💻 MASTER', url='https://t.me/KichchaFan')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
